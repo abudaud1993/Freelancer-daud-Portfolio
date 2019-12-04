@@ -31,7 +31,7 @@ body {
   background: #fafafa;
 }
 .container {
-  border: 0.1px solid red;
+  /* border: 0.1px solid red; */
 }
 .img {
   max-width: 100%;
@@ -377,23 +377,19 @@ span.icone_style1 {
 box-shadow: 0 20px 30px rgba(0, 0, 0,.5);
   
 }
-. {
+
+
+/* Portfolio Section CSS End */
+
+/* Review Section CSS Start */
+
+.review_area {}
+.review_title_subtitle { 
+  text-align: center;
 }
-. {
-}
-. {
-}
-. {
-}
-. {
-}
-. {
-}
-. {
-}
-. {
-}
-. {
-}
-. {
-}
+.review_title_subtitle h1{}
+.review_title_subtitle p{
+.{}
+.{}
+.{}
+.{}
