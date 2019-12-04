@@ -137,13 +137,15 @@ h6 {
   transition: 2s;
 }
 .site_logo {
+  text-align: right;
+
 }
 .main_menu {
 }
 .main_menu ul {
-  margin: 32px 0px 27px 0px;
-  text-align: center;
-  float: right;
+  margin: 25px 0px 25px 0px;
+  text-align: right;
+  /* float: right; */
   z-index: 1;
 }
 .main_menu ul li {
@@ -341,13 +343,14 @@ span.icone_style1 {
   margin-bottom: 56px;
  
 }
-.portfolio_portfolio h2 {
+.portfolio_portfolio h3 {
+  font-size: 20px;
   text-align: center;
   box-shadow: 0 11px 26px rgba(86, 86, 86, 0.5);
   color: rgb(0, 161, 255);
   border: 3px solid #fff;
   background: #fafafa;
-  
+  padding: 20px 18px;
 }
 .box_scroll_hover {
   
@@ -356,7 +359,7 @@ span.icone_style1 {
   /* left: 50%; */
   /* transform: translate(-50%, -50%); */
   
-  height: 550px;
+  height: 400px;
   background: url("screencapture-3docean-net-2019-12-04-11_07_20.png");
   background-size: cover;
   background-position: top;
@@ -388,8 +391,62 @@ box-shadow: 0 20px 30px rgba(0, 0, 0,.5);
   text-align: center;
 }
 .review_title_subtitle h1{}
-.review_title_subtitle p{
-.{}
-.{}
-.{}
-.{}
+
+/* Review Section CSS End */
+
+ /* Contract Section area start */
+
+.contract_us form input {
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 10px;
+  border: none;
+  background: #fafafa;
+  border-bottom: 2px solid #fff;
+}
+
+.contract_us form textarea{
+  border: none;
+  background: #fafafa;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 10px;
+  padding: 25px;
+
+}
+
+.submit_contract {
+  border-bottom: none !important;
+  padding: 20px !important;
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  background: #91d3ea !important;
+}
+
+
+/* Contract Section area End */
+
+/* copyright Section area css */
+
+.copyright_area{
+  box-shadow: 0 -24px 56px rgba(0, 0, 0,.5);
+  background: #f6f6f6;
+
+}
+.footer_icon {
+  font-size: 20px;
+  text-align: right;
+  padding: 26px;
+  margin-top: 5px;
+}
+
+.footer_icon svg.svg-inline--fa {
+    width: 45px;
+    height: 30px;
+    background: #000000;
+    border-radius: 50px;
+}
+.copyright_text{
+   text-align: right;
+    padding: 33px;
+
+}
