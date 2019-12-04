@@ -323,15 +323,59 @@ span.icone_style1 {
 .service_text {
 }
 
-. {
+/* Service Section CSS End */
+
+/* Portfolio Section CSS Start */
+
+.portfolio_area {
+
 }
-. {
+
+.portfolio_title_subtitle{
+  text-align: center;
+
 }
-. {
+
+.portfolio_portfolio {
+  cursor: pointer;
+  margin-bottom: 56px;
+ 
 }
-. {
+.portfolio_portfolio h2 {
+  text-align: center;
+  box-shadow: 0 11px 26px rgba(86, 86, 86, 0.5);
+  color: rgb(0, 161, 255);
+  border: 3px solid #fff;
+  background: #fafafa;
+  
 }
-. {
+.box_scroll_hover {
+  
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  
+  height: 550px;
+  background: url("screencapture-3docean-net-2019-12-04-11_07_20.png");
+  background-size: cover;
+  background-position: top;
+  /* background-position: bottom; */
+  border: 5px solid #fff;
+  box-shadow: 0 20px 30px rgba(0, 0, 0,.5);
+  transition: 5s;
+
+}
+.box_scroll_hover:hover {
+  background-position: bottom;
+  border: 10px solid #fff;
+
+}
+
+.portfolio_portfolio:hover {
+
+box-shadow: 0 20px 30px rgba(0, 0, 0,.5);
+  
 }
 . {
 }
