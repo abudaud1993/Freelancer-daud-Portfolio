@@ -10,32 +10,412 @@
 
 @media (max-width: 575.98px) {
 
+    .site_logo {
+        text-align: center;
+    
+    }
+    .site_logo img{ 
+        width: 100px;
+    }
+
+    .main_menu ul {
+
+        margin: 0px 0px 7px 0px;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .main_menu ul li {
+        margin: 0px 5px 0px 0px;
+    }
+
+    .author_image {
+        text-align: center;
+    }
+
+
+    .author_image a img {
+        margin: 130px 0px 0px 0px;
+    }
+
+    .author_text_area h1 {
+        font-size: 36px;
+    }
+
+    .author_text_area h2 {
+        font-size: 30px;
+    }
+
+    .author_text_area {
+        margin: 80px 0px 30px 0px;
+    }
+
+    .ah-headline.clip.is-full-width span b {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+
+    .social-icons ul li a span {
+        background: none;
+    }
+    .social-icons ul li a span.icone_style1 {
+        display: none;
+    }
+    span.icone_style {
+        padding: 5px;
+
+    }
+
+    .social-icons ul {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .about_title h1 {
+        font-size: 36px;
+    }
+    .work_img {
+        margin: 31px;
+    }
+
+    .about_content {
+        margin: 0px 25px 0px 25px;
+    }
+
+    .about_subtitle h3 {
+        margin: 0px 25px 0px 25px;
+    }
+
+    .skill_bar_title {
+
+        margin: 0px 25px 0px 25px;
+
+    }
+
+    .skills_bar_margin{
+        margin: 0px 25px 0px 25px;
+
+    }
+
+    .skillbar-title {
+        font-size: 15px;
+        
+    }
+
+    .skill-bar-percent {
+        font-size: 15px;
+       
+    }
+    .service h1 {
+        font-size: 36px;
+    }
+
+    .service_service {
+        margin: 0px 25px 0px 25px;
+    }
+    
+
+    .service_icon {
+        margin: 30px 0px 36px 142px;
+    }
+
+    .portfolio_title_subtitle h1 {
+        font-size: 36px;
+    }
+
+    .portfolio_margin {
+        margin: 0px 25px 0px 25px;
+    }
+
+    .review_title_subtitle h1 {
+        font-size: 36px;
+    }
+
+    .contract_title_subtitle h1 {
+
+        font-size: 36px;
+    
+    }
+
+    .iframe_margin{
+
+        margin: 0px 25px 0px 25px;
+    }
+
+    .contract_us form textarea {
+        width: 100%;
+    }
+
+    .footer_icon {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+    
+    }
+
+    .copyright_text {
+        text-align: center;
+        padding: 0px;
+        font-size: 14px;
+    }
+
+
+
+    footer {
+
+        margin: 0px 25px 0px 25px;
+    }
 
 }
 
     /* Small devices (landscape phones,/sm 576px and up) */
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    
+    
+    .site_logo img{ 
+        width: 100px;
+    }
+
+    .main_menu ul li a {
+        font-size: 14px;
+    }
+    .main_menu ul li {
+        margin: 0px 3px 0px 0px;
+    }
+
+    .main_menu ul {
+        margin: 20px 0px 20px 0px;
+
+    }
+
+    .author_image {
+        text-align: center;
+    }
+    .author_image a img {
+        margin: 130px 0px 0px 44px;
+    }
+    .author_text_area h1 {
+        font-size: 48px;
+    }
+
+    .author_text_area h2 {
+        font-size: 36px;
+    }
+
+    .service_text {
+        padding: 5px 30px;
+    }
+
+
+    span.icone_style {
+        padding: 26px;
+        
+    }
+
+    .social-icons ul li {
+        margin: 0px 7px 0px 0px;
+    }
+
+    .social-icons ul {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .service_icon {
+        margin: 30px 0px 36px 194px;
+    }
+
+    .contract_us form textarea {
+        width: 510px;
+    }
+
+    .footer_icon {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+    
+    }
+
+    .copyright_text {
+        text-align: center;
+        padding: 0px;
+        font-size: 14px;
+    }
+
+
+
 
 
 }
 
      /* Medium devices (tablets,/md 768px and up) */
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+    @media (min-width: 768px) and (max-width: 991.98px) {
+
+    .site_logo img{ 
+        width: 150px;
+    }
+
+    .author_image a img {
+        max-width: 280px;
+        margin: 78px 0px 0px 10px;
+       
+    }
+
+    .author_text_area h1 {
+        font-size: 33px;
+    }
+    .author_text_area h2 {
+        font-size: 25px;
+        
+    }
+    .ah-headline.clip.is-full-width span b {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .slider_content {
+        margin: 0px 0px 0px 110px;
+    }
+
+    .social-icons ul li a span {
+        background: none;
+    }
+    .social-icons ul li a span.icone_style1 {
+        display: none;
+    }
+    span.icone_style {
+        padding: 5px;
+
+    }
+    .author_text_area {
+
+        margin: 130px 0px 25px 0px;
+    }
+
+    .about_title h1 {
+        font-size: 36px;
+    }
+
+    .about_subtitle h3 {
+        font-size: 25px;
+    }
+
+    .service h1 {
+        font-size: 36px;
+    }
+
+    .service_icon {
+        margin: 30px 0px 36px 105px;
+    }
+
+    .portfolio_title_subtitle h1 {
+        font-size: 36px;
+    }
+
+    .review_title_subtitle h1 {
+        font-size: 36px;
+    }
+
+    .contract_title_subtitle h1 {
+        font-size: 36px;
+    }
+
+    .contract_us form textarea {
+        width: 690px;
+    }
+
+    .footer_icon {
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+    
+    }
+
+    .copyright_text {
+        text-align: center;
+        padding: 2px;
+    }
 
 
 }
+
+
+
 
      /* Large devices (desktops,/lg 992px and up) */
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+    .author_image a img {
+        margin: 130px 0px 0px 0px;
+    }
+    .author_text_area h1 {
+        font-size: 45px;
+    }
+    .author_text_area h2 {
+        font-size: 35px;
+        font-weight: 200;
+    }
+    span.icone_style {
+        padding: 23px;
+        font-size: 15px;
+    }
+
+    span.icone_style1 {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .slider_content {
+        margin: 189px 0px 0px 100px;
+    }
+
+    .service_service {
+        height: 350px;
+       
+    }
+    .service_icon {
+        margin: 30px 0px 36px 80px;
+
+    }
+
+    .portfolio_portfolio h3 {
+        font-size: 19px;
+        padding: 17px 10px;
+        font-weight: 400;
+    }
+
+    .contract_us form textarea {
+        width: 530px;
+        
+      }
+
+      .copyright_text {
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    .footer_icon svg.svg-inline--fa {
+        width: 30px;
+        font-size: 23px;
+        margin-top: 11px;
+    }
+
 
 }
 
+
+
+
+
+
+
+
+
      /* Extra large devices (large/xl desktops, 1200px and up) */
-     
+
 @media (min-width: 1200px) {
 
 
