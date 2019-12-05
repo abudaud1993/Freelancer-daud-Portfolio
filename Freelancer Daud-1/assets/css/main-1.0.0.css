@@ -138,7 +138,6 @@ h6 {
 }
 .site_logo {
   text-align: right;
-
 }
 .main_menu {
 }
@@ -174,13 +173,13 @@ h6 {
   border: 8px solid #6786a1;
   max-width: 350px;
   border-radius: 80px 0px 80px 0px;
-  margin: 160px 0px 0px 44px;
+  margin: 130px 0px 0px 44px;
   box-shadow: 11px 11px #a000001c, -1em 0 0.4em #8bbdaa9c;
 }
 
 .author_text_area {
   text-align: center;
-  margin: 160px 0px 80px 0px;
+  margin: 130px 0px 80px 0px;
 }
 
 .author_text_area h1 {
@@ -296,7 +295,6 @@ span.icone_style1 {
   font-size: 45px;
   /* transform: rotate(1turn); */
   transform: scale(1, 1);
-  
 }
 
 .service_service:hover .service_icon {
@@ -330,18 +328,15 @@ span.icone_style1 {
 /* Portfolio Section CSS Start */
 
 .portfolio_area {
-
 }
 
-.portfolio_title_subtitle{
+.portfolio_title_subtitle {
   text-align: center;
-
 }
 
 .portfolio_portfolio {
   cursor: pointer;
   margin-bottom: 56px;
- 
 }
 .portfolio_portfolio h3 {
   font-size: 20px;
@@ -353,65 +348,60 @@ span.icone_style1 {
   padding: 20px 18px;
 }
 .box_scroll_hover {
-  
   /* position: absolute; */
   /* top: 50%; */
   /* left: 50%; */
   /* transform: translate(-50%, -50%); */
-  
+
   height: 400px;
   background: url("screencapture-3docean-net-2019-12-04-11_07_20.png");
   background-size: cover;
   background-position: top;
   /* background-position: bottom; */
   border: 5px solid #fff;
-  box-shadow: 0 20px 30px rgba(0, 0, 0,.5);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
   transition: 5s;
-
 }
 .box_scroll_hover:hover {
   background-position: bottom;
   border: 10px solid #fff;
-
 }
 
 .portfolio_portfolio:hover {
-
-box-shadow: 0 20px 30px rgba(0, 0, 0,.5);
-  
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
 }
-
 
 /* Portfolio Section CSS End */
 
 /* Review Section CSS Start */
 
-.review_area {}
-.review_title_subtitle { 
+.review_area {
+}
+.review_title_subtitle {
   text-align: center;
 }
-.review_title_subtitle h1{}
+.review_title_subtitle h1 {
+}
 
 /* Review Section CSS End */
 
- /* Contract Section area start */
+/* Contract Section area start */
 
 .contract_us form input {
   width: 100%;
-  padding: 25px;
+  padding: 10px;
   margin-bottom: 10px;
   border: none;
   background: #fafafa;
   border-bottom: 2px solid #fff;
 }
 
-.contract_us form textarea{
+.contract_us form textarea {
   border: none;
   background: #fafafa;
   border-bottom: 2px solid #fff;
   margin-bottom: 10px;
   padding: 25px;
-
 }
 
 .submit_contract {
@@ -422,15 +412,13 @@ box-shadow: 0 20px 30px rgba(0, 0, 0,.5);
   background: #91d3ea !important;
 }
 
-
 /* Contract Section area End */
 
 /* copyright Section area css */
 
-.copyright_area{
-  box-shadow: 0 -24px 56px rgba(0, 0, 0,.5);
+.copyright_area {
+  box-shadow: 0 -24px 56px rgba(0, 0, 0, 0.5);
   background: #f6f6f6;
-
 }
 .footer_icon {
   font-size: 20px;
@@ -440,13 +428,12 @@ box-shadow: 0 20px 30px rgba(0, 0, 0,.5);
 }
 
 .footer_icon svg.svg-inline--fa {
-    width: 45px;
-    height: 30px;
-    background: #000000;
-    border-radius: 50px;
+  width: 45px;
+  /* height: 30px; */
+  /* background: #000000; */
+  border-radius: 50px;
 }
-.copyright_text{
-   text-align: right;
-    padding: 33px;
-
+.copyright_text {
+  text-align: right;
+  padding: 33px;
 }
